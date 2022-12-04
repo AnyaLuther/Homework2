@@ -2,7 +2,7 @@ public class Main
 {
     public static void main(String[] args) {
         int a1 = 3;
-        int b1 = 7;
+        int b1 = 8;
         int a2 = 5;
         int b2 = 9;
         if (a1 > b2 || b1 < a2) {
