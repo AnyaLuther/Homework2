@@ -8,11 +8,11 @@ public class Main
         if (a1 > b2 || b1 < a2) {
             System.out.println(" Прямые не имеют точек пересечения. ");
         }
-        else if (b1 == a2) {
-            System.out.println(" Точка пересечения отрезков " + b1);
-        }
         else if (a1 == b2) {
             System.out.println(" Точка пересечения отрезков " + a1);
+        }
+        else if (b1 == a2) {
+            System.out.println(" Точка пересечения отрезков " + b1);
         }
         else if (a1 >= a2 && b1 <= b2) {
             System.out.println(" Начало отрезка пересечения " + a1 + ". Конец отрезка пересечения " + b1);
